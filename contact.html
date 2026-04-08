@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact &ndash; Structured Chaos</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    main { min-height: 90vh; padding: 140px 48px 100px; position: relative; overflow: hidden; }
+    main::before { content: ''; position: absolute; top: 50%; left: -200px; transform: translateY(-50%); width: 600px; height: 600px; background: radial-gradient(circle, rgba(0,170,179,0.12) 0%, transparent 70%); pointer-events: none; }
+    main::after { content: ''; position: absolute; bottom: -100px; right: -100px; width: 500px; height: 500px; background: radial-gradient(circle, rgba(255,107,53,0.08) 0%, transparent 70%); pointer-events: none; }
+    .main-inner { max-width: 640px; margin: 0 auto; position: relative; z-index: 1; }
+    .section-title { margin-bottom: 32px; }
+    .divider { margin: 0 0 40px; }
+    .contact-block { display: flex; flex-direction: column; gap: 0; border: 1px solid rgba(0,170,179,0.15); border-radius: 6px; overflow: hidden; }
+    .contact-row { display: flex; align-items: baseline; gap: 24px; padding: 20px 28px; border-bottom: 1px solid rgba(255,255,255,0.06); }
+    .contact-row:last-child { border-bottom: none; }
+    .contact-label { font-size: 11px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: var(--teal); width: 140px; flex-shrink: 0; }
+    .contact-value { font-size: 16px; color: var(--white); font-weight: 300; }
+    .contact-value a { color: var(--teal); text-decoration: underline; text-underline-offset: 3px; transition: color 0.2s; }
+    .contact-value a:hover { color: var(--orange); }
+    .spinner { width: 16px; height: 16px; border: 2px solid rgba(0,170,179,0.25); border-top-color: var(--teal); border-radius: 50%; display: inline-block; animation: spin 0.8s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @media (max-width: 768px) {
+      main { padding: 100px 24px 60px; }
+      .contact-row { flex-direction: column; gap: 6px; }
+      .contact-label { width: auto; }
+    }
+  </style>
+  <link rel="icon" type="image/svg+xml" href="svg/structured-chaos-logo-square.svg">
+</head>
+<body>
+
+<nav>
+  <a href="/index.html" class="nav-logo">
+    <img src="svg/structured-chaos-logo-square-transparent.svg" alt="Structured Chaos logo" width="40" height="40">
+    <div class="nav-wordmark">
+      <span>Structured</span>
+      <span>Chaos</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/index.html">Home</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+</nav>
+
+<main>
+  <div class="main-inner">
+    <p class="section-label">Get in touch</p>
+    <h1 class="section-title">Contact <span>&amp; Info</span></h1>
+    <div class="divider"></div>
+
+    <div class="contact-block">
+      <div class="contact-row">
+        <span class="contact-label">Company</span>
+        <span class="contact-value">Structured Chaos B.V.</span>
+      </div>
+      <div class="contact-row">
+        <span class="contact-label">Email</span>
+        <span class="contact-value"><a href="mailto:hello@structuredchaos.nl">hello@structuredchaos.nl</a></span>
+      </div>
+      <div class="contact-row">
+        <span class="contact-label">KvK</span>
+        <span class="contact-value"><a href="https://www.kvk.nl/bestellen/#/42031861000065347129" target="_blank" rel="noopener">42031861</a></span>
+      </div>
+      <div class="contact-row">
+        <span class="contact-label">BTW</span>
+        <span class="contact-value"><span class="spinner"></span></span>
+      </div>
+      <div class="contact-row">
+        <span class="contact-label">IBAN</span>
+        <span class="contact-value"><span class="spinner"></span></span>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-left">
+    <strong>Structured Chaos B.V.</strong><br>
+    &copy; 2026 | All rights reserved
+  </div>
+  <div class="footer-hosting">
+    <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="color: var(--teal)">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008z"/>
+    </svg>
+    Hosted on <a href="https://sevalla.com" target="_blank" rel="noopener">Sevalla Static Site Hosting</a>
+  </div>
+</footer>
+
+</body>
+</html>

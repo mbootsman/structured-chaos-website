@@ -4,31 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Structured Chaos</title>
+  <link rel="stylesheet" href="style.css">
   <style>
-    @font-face {
-      font-family: 'Inder';
-      src: url(fonts/Inder-Regular.ttf) format('truetype');
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --teal: #00aab3;
-      --orange: #FF6B35;
-      --dark: #1a1a2e;
-      --dark2: #161626;
-      --dark3: #1e1e32;
-      --white: #ffffff;
-      --muted: rgba(255,255,255,0.55);
-    }
-    html { scroll-behavior: smooth; }
-    body { background: var(--dark); color: var(--white); font-family: 'Inter', sans-serif; line-height: 1.6; overflow-x: hidden; }
-    nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 20px 48px; background: var(--dark); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(0,170,179,0.12); }
-    .nav-logo { display: flex; align-items: center; gap: 14px; text-decoration: none; }
-    .nav-wordmark { display: flex; flex-direction: column; line-height: 1.1; }
-    .nav-wordmark span:first-child { font-family: 'Inder', sans-serif; font-size: 15px; letter-spacing: 3px; color: var(--white); }
-    .nav-wordmark span:last-child { font-family: 'Inder', sans-serif; font-size: 15px; letter-spacing: 3px; color: var(--orange); }
-    .nav-links { display: flex; gap: 36px; list-style: none; }
-    .nav-links a { color: var(--muted); text-decoration: none; font-size: 14px; font-weight: 500; letter-spacing: 0.5px; transition: color 0.2s; }
-    .nav-links a:hover { color: var(--teal); }
     .hero { min-height: 90vh; display: flex; align-items: center; justify-content: center; padding: 120px 48px 80px; position: relative; overflow: hidden; }
     .hero::before { content: ''; position: absolute; left: -200px; width: 600px; height: 600px; background: radial-gradient(circle, rgba(0,170,179,0.12) 0%, transparent 70%); pointer-events: none; }
     .hero::after { content: ''; position: absolute; bottom: -100px; right: -100px; width: 500px; height: 500px; background: radial-gradient(circle, rgba(255,107,53,0.08) 0%, transparent 70%); pointer-events: none; }
@@ -41,27 +18,13 @@
     .hero-sub { font-size: 18px; color: var(--muted); font-weight: 300; margin-bottom: 10px; max-width: 480px; }
     .hero-cta { display: inline-flex; align-items: center; gap: 10px; padding: 14px 32px; background: var(--teal); color: var(--dark); font-weight: 600; font-size: 14px; letter-spacing: 1px; text-decoration: none; border-radius: 4px; transition: background 0.2s, transform 0.2s; }
     .hero-cta:hover { background: #00c4ce; transform: translateY(-2px); }
-    .divider { width: 60px; height: 2px; background: linear-gradient(to right, var(--teal), var(--orange)); margin: 0 0 32px; }
     section { padding: 100px 48px; }
     .section-inner { max-width: 960px; margin: 0 auto; }
-    .section-label { font-size: 11px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: var(--teal); margin-bottom: 12px; }
-    .section-title { font-family: 'Inder', sans-serif; font-size: clamp(28px, 4vw, 42px); letter-spacing: 2px; margin-bottom: 20px; }
-    .section-title span { color: var(--orange); }
-    .section-body { font-size: 17px; color: var(--muted); font-weight: 300; max-width: 600px; line-height: 1.8; }
-    footer { background: var(--dark); border-top: 1px solid rgba(255,255,255,0.07); padding: 32px 48px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
-    .footer-left { font-size: 13px; color: var(--muted); }
-    .footer-left strong { font-family: 'Inder', sans-serif; color: var(--white); letter-spacing: 1px; }
-    .footer-hosting { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); }
-    .footer-hosting a { color: var(--teal); text-decoration: none; font-weight: 500; transition: color 0.2s; }
-    .footer-hosting a:hover { color: var(--orange); }
     @media (max-width: 768px) {
-      nav { padding: 16px 24px; }
-      .nav-links { display: none; }
       .hero { padding: 100px 24px 60px; }
       .hero-inner { flex-direction: column; gap: 40px; text-align: center; }
       .hero-sub { margin: 0 auto 36px; }
       section { padding: 72px 24px; }
-      footer { padding: 24px; flex-direction: column; align-items: flex-start; }
     }
   </style>
   <link rel="icon" type="image/svg+xml" href="svg/structured-chaos-logo-square.svg">
@@ -69,13 +32,17 @@
 <body>
 
 <nav>
-  <a href="/" class="nav-logo">
+  <a href="/index.html" class="nav-logo">
     <img src="svg/structured-chaos-logo-square-transparent.svg" alt="Structured Chaos logo" width="40" height="40">
     <div class="nav-wordmark">
       <span>Structured</span>
       <span>Chaos</span>
     </div>
   </a>
+  <ul class="nav-links">
+    <li><a href="/index.html" class="active">Home</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
 </nav>
 
 <section class="hero" id="home">
@@ -90,14 +57,14 @@
         <span class="line2">Chaos</span>
       </h1>
       <p class="hero-sub">Strategy, partnerships and community. Built with intention, delivered with energy.</p>
-      <a href="mailto:hello@structuredchaos.nl" class="hero-cta">Get in touch</a>
+      <a href="/contact.html" class="hero-cta">Get in touch</a>
     </div>
   </div>
 </section>
 
 <footer>
   <div class="footer-left">
-    <strong>Structured Chaos</strong><br>
+    <strong>Structured Chaos B.V.</strong><br>
     &copy; 2026 | All rights reserved
   </div>
   <div class="footer-hosting">
