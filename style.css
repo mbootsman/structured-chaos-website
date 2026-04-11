@@ -1,6 +1,10 @@
 @font-face {
   font-family: 'Inder';
   src: url(fonts/Inder-Regular.ttf) format('truetype');
+  font-display: swap;
+  ascent-override: 96%;
+  descent-override: 24%;
+  line-gap-override: 0%;
 }
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
