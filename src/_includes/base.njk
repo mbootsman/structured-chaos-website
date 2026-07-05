@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  {% if description %}<meta name="description" content="{{ description }}">{% endif %}
+  <title>{{ title }}</title>
+  <link rel="preload" href="/fonts/Inder-Regular.ttf" as="font" type="font/truetype" crossorigin>
+  {% if preloadImage %}<link rel="preload" href="{{ preloadImage }}" as="image">{% endif %}
+  <style>{% include "styles.css" %}</style>
+  <link rel="icon" type="image/svg+xml" href="/svg/structured-chaos-logo-square.svg">
+</head>
+<body>
+
+<nav>
+  <a href="/index.html" class="nav-logo">
+    <img src="/svg/structured-chaos-logo-square-transparent.svg" alt="Structured Chaos logo" width="40" height="40">
+    <div class="nav-wordmark">
+      <span>Structured</span>
+      <span>Chaos</span>
+    </div>
+  </a>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle-check">
+  <label for="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </label>
+  <ul class="nav-links">
+    <li><a href="/index.html"{% if navPage == 'home' %} class="active"{% endif %}>Home</a></li>
+    <li><a href="/index.html#brands"{% if navPage == 'brands' %} class="active"{% endif %}>Brands</a></li>
+    <li><a href="/contact.html"{% if navPage == 'contact' %} class="active"{% endif %}>Contact</a></li>
+  </ul>
+</nav>
+
+{{ content | safe }}
+
+<footer>
+  <div class="footer-left">
+    <strong>Structured Chaos B.V.</strong><br>
+    &copy; 2026 | All rights reserved
+  </div>
+  <div class="footer-hosting">
+    <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="color: var(--teal)">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 14.25h13.5m-13.5 0a3 3 0 01-3-3m3 3a3 3 0 100 6h13.5a3 3 0 100-6m-16.5-3a3 3 0 013-3h13.5a3 3 0 013 3m-19.5 0a4.5 4.5 0 01.9-2.7L5.737 5.1a3.375 3.375 0 012.7-1.35h7.126c1.062 0 2.062.5 2.7 1.35l2.587 3.45a4.5 4.5 0 01.9 2.7m0 0a3 3 0 01-3 3m0 3h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008zm-3 6h.008v.008h-.008v-.008zm0-6h.008v.008h-.008v-.008z"/>
+    </svg>
+    Hosted on <a href="https://sevalla.com" target="_blank" rel="noopener">Sevalla Static Site Hosting</a>
+  </div>
+</footer>
+
+</body>
+</html>

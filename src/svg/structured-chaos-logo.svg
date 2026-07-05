@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="137.58333mm"
+   height="42.333332mm"
+   viewBox="0 0 137.58333 42.333332"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="structured-chaos-logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="10.24"
+     inkscape:cx="71.191406"
+     inkscape:cy="79.44336"
+     inkscape:window-width="5120"
+     inkscape:window-height="1355"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     inkscape:lockguides="false">
+    <sodipodi:guide
+       position="44.365899,21.059519"
+       orientation="1,0"
+       id="guide1"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="133.01926,18.714617"
+       orientation="1,0"
+       id="guide2"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      @import url('https://fonts.googleapis.com/css2?family=Inder');
+    </style>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-41.804165,-118.53333)">
+    <!-- Spiral mark -->
+    <!-- Wordmark -->
+    <!-- Spiral mark -->
+    <!-- Wordmark -->
+    <!-- Logo mark: square spiral loosening to organic -->
+    <!-- Wordmark -->
+    <rect
+       width="137.58333"
+       height="42.333332"
+       fill="#1a1a2e"
+       rx="0"
+       id="rect1"
+       x="41.804165"
+       y="118.53333"
+       style="display:inline;stroke-width:0.264583"
+       transform="translate(1.1245868e-6)" />
+    <!-- Vortex mark: square spiral loosening to organic -->
+    <polyline
+       points="-60,-60 60,-60 60,60 -60,60 -60,-47"
+       fill="none"
+       stroke="#00aab3"
+       stroke-width="5.5"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="polyline1"
+       transform="matrix(0.26458333,0,0,0.26458333,62.970834,139.7)"
+       style="display:inline;stroke-width:5.37826779;stroke-dasharray:none" />
+    <polyline
+       points="-60,-47 47,-47 47,47 -47,47 -47,-34"
+       fill="none"
+       stroke="#00aab3"
+       stroke-width="5"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="polyline2"
+       transform="matrix(0.26458333,0,0,0.26458333,62.970834,139.7)"
+       style="display:inline;fill:#1a1a2e;fill-opacity:1;opacity:1;stroke-width:5.37826779;stroke-dasharray:none" />
+    <path
+       d="m 50.535417,130.70417 q 21.43125,0 21.43125,17.99166 -4.7625,1.5875 -17.991666,0 0,-6.35 0,-14.2875"
+       fill="none"
+       stroke="#1db8c0"
+       stroke-width="1.19062"
+       stroke-linecap="round"
+       id="path2"
+       style="stroke-width:1.423;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:1.7;stroke-dasharray:none;paint-order:fill markers stroke;fill:none;stroke:#00aab3;stroke-opacity:1" />
+    <path
+       d="m 53.975001,134.40833 q 14.2875,0 14.2875,9.525 -3.96875,2.11667 -9.525,-1.05833 0,-4.23333 4.7625,-4.23333 2.116666,1.5875 1.322916,3.70416"
+       fill="none"
+       stroke="#ff6b35"
+       stroke-width="1.05833"
+       stroke-linecap="round"
+       id="path3"
+       style="stroke-width:1.423;stroke-dasharray:none" />
+    <circle
+       cx="63.964886"
+       cy="141.94786"
+       r="1.5831009"
+       fill="#ff6b35"
+       id="circle3"
+       style="stroke-width:0.287836" />
+    <!-- Wordmark: Inder font, right of mark -->
+    <text
+       x="85.479416"
+       y="136.86313"
+       font-family="Inder, sans-serif"
+       font-weight="400"
+       font-size="8.99583px"
+       letter-spacing="3.90684"
+       fill="#ffffff"
+       id="text3"
+       style="font-size:11.026px;stroke-width:0.258421">Structured</text>
+    <rect
+       x="86.170067"
+       y="138.98187"
+       width="88.653358"
+       height="1.436237"
+       fill="#00aab3"
+       opacity="0.5"
+       id="rect3"
+       style="display:inline;opacity:1;stroke-width:0.499932;stroke-dasharray:none" />
+    <text
+       x="128.28658"
+       y="150.54582"
+       font-family="Inder, sans-serif"
+       font-weight="400"
+       font-size="8.99583px"
+       letter-spacing="4"
+       fill="#ff6b35"
+       id="text4"
+       style="font-size:11.026px;stroke-width:0.264583">Chaos</text>
+  </g>
+</svg>
