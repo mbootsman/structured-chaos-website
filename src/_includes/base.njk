@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   {% if description %}<meta name="description" content="{{ description }}">{% endif %}
   <title>{{ title }}</title>
-  <link rel="preload" href="/fonts/Inder-Regular.ttf" as="font" type="font/truetype" crossorigin>
-  {% if preloadImage %}<link rel="preload" href="{{ preloadImage }}" as="image">{% endif %}
+  <link rel="preload" href="/fonts/Inder-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  {% if preloadImage %}<link rel="preload" href="{{ preloadImage }}" as="image" fetchpriority="high">{% endif %}
   <style>{% include "styles.css" %}</style>
   <link rel="icon" type="image/svg+xml" href="/svg/structured-chaos-logo-square.svg">
 </head>

@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Inder';
-  src: url(/fonts/Inder-Regular.ttf) format('truetype');
+  src: url(/fonts/Inder-Regular.woff2) format('woff2');
   font-display: swap;
   ascent-override: 96%;
   descent-override: 24%;
