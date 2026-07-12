@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 340 120"
+   width="680"
+   height="240"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="biobubbels-logo-primair-donkergroen.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.6661765"
+     inkscape:cx="340"
+     inkscape:cy="120.02206"
+     inkscape:window-width="1920"
+     inkscape:window-height="1115"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <title
+     id="title1">Biobubbels logo — primair, op wijngaardgroen</title>
+  <rect
+     width="340"
+     height="120"
+     fill="#1E3A2F"
+     id="rect1" />
+  <g
+     fill="#D9B98A"
+     id="g7">
+    <circle
+       cx="292"
+       cy="62"
+       r="2"
+       opacity="0.5"
+       id="circle1" />
+    <circle
+       cx="300"
+       cy="50"
+       r="3"
+       opacity="0.6"
+       id="circle2" />
+    <circle
+       cx="291"
+       cy="37"
+       r="2.5"
+       opacity="0.7"
+       id="circle3" />
+    <circle
+       cx="303"
+       cy="26"
+       r="4.5"
+       opacity="0.8"
+       id="circle4" />
+    <circle
+       cx="315"
+       cy="36"
+       r="2"
+       opacity="0.55"
+       id="circle5" />
+    <circle
+       cx="296"
+       cy="12"
+       r="3"
+       opacity="0.9"
+       id="circle6" />
+    <circle
+       cx="312"
+       cy="10"
+       r="6"
+       id="circle7" />
+  </g>
+  <text
+     x="30"
+     y="82"
+     font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif"
+     font-size="40"
+     letter-spacing="2"
+     fill="#F5EFE4"
+     id="text7">Biobubbels</text>
+  <text
+     x="32"
+     y="106"
+     font-family="Inter, Helvetica, Arial, sans-serif"
+     font-size="10"
+     letter-spacing="5"
+     fill="#D9B98A"
+     id="text8">BIOLOGISCH MOUSSEREND</text>
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Biobubbels logo — primair, op wijngaardgroen</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
